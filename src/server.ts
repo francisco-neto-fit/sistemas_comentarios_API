@@ -22,6 +22,6 @@ app.use((err: Error, request: Request, response:Response, next: NextFunction)=>{
     });
 });
 
-app.listen(3000, () => console.log('server is running grr')); // inicializa o servidor na porta 3000
+app.listen(3000, () => console.log(`server is running in port ${3000}` )); // inicializa o servidor na porta 3000
 
 // pra criar nova migration: yarn typeorm migration:create -n CreateTags
