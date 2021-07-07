@@ -1,0 +1,1 @@
+typeroots em tsconfig.json para definir onde se localizam as tipagens feitas no projeto para o tsconfig validar
